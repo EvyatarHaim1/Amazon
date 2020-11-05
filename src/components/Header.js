@@ -95,4 +95,6 @@ color: white;`
 
 const Header_basket_Count = styled.span`
 margin-left: 10px;
-margin-right: 10px;`
+margin-right: 10px;
+font-size: 13px;
+font-weight: 800;`
