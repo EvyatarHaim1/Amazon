@@ -8,5 +8,6 @@ Amazon - Full-Stack App
 * React Currency Format
 * Styled-Components
 * React-Hooks
+* React Context-API - State Managment
 * Functional Components
 * Login\Signin system with Authentication
