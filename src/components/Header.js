@@ -21,10 +21,12 @@ function Header() {
                 <SEARCH_ICON />
             </HEADER_SEARCH>
             <HEADER_NAV>
+                <Link to="/login">
                 <HEADER_OPTION>
                   <OPTION_LINE1> Hello Guest</OPTION_LINE1>
                   <OPTION_LINE2> Sign In</OPTION_LINE2>
                 </HEADER_OPTION>
+                </Link>
                 <HEADER_OPTION>
                   <OPTION_LINE1> Returns</OPTION_LINE1>
                   <OPTION_LINE2>& Orders</OPTION_LINE2>
