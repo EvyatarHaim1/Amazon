@@ -30,7 +30,7 @@ function Header() {
             <HEADER_NAV>
                 <Link to={!user && "/login"}>
                 <HEADER_OPTION onClick={handleAuthentication}>
-                  <OPTION_LINE1> {user? `Hello ${user.email}`: 'Hello Guest'}</OPTION_LINE1>
+                  <OPTION_LINE1> Hello {user? `${user.email}`: 'Guest'}</OPTION_LINE1>
                   <OPTION_LINE2> {user ? 'Sign Out' : 'Sign In'}</OPTION_LINE2>
                 </HEADER_OPTION>
                 </Link>

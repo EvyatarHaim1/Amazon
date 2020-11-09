@@ -44,6 +44,32 @@ function Home() {
                       image="https://images-na.ssl-images-amazon.com/images/I/81SGb5l%2BlZL._AC_SL1500_.jpg"
                       rating={5} />
                 </HOME_ROW>
+                <HOME_ROW>
+                    <Product 
+                      id="554973612"
+                      title="Korg microKorg 37-Key Analog Modeling Synthesizer with Vocoder"
+                      price={429.99} 
+                      image="https://images-na.ssl-images-amazon.com/images/I/61Q4Fo%2ByVgL._AC_SL1200_.jpg"
+                      rating={5} />
+                    <Product 
+                      id="5006498312"
+                      title="Neumann TLM 103 Condensor Microphone"
+                      price='1,099.99'
+                      image="https://images-na.ssl-images-amazon.com/images/I/71JN5hFRQsL._AC_SL1500_.jpg"
+                      rating={5} />
+                   <Product 
+                      id="88152496"
+                      title="KRK RP5 Rokit G4 Studio Monitor, Black (RP5G4-NA)"
+                      price={949.00} 
+                      image="https://images-na.ssl-images-amazon.com/images/I/81hv8G5nHQL._AC_SL1500_.jpg"
+                      rating={4} />
+                    <Product 
+                      id="77691524"
+                      title="SKB Acoustic Guitar Case (1SKB-GSM)"
+                      price={200.00} 
+                      image="https://images-na.ssl-images-amazon.com/images/I/81Nbh-p-IpL._AC_SL1500_.jpg"
+                      rating={5} />
+                </HOME_ROW>
                 <HOME_ROW>  
                 <Product 
                       id="888221643"
