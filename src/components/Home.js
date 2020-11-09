@@ -11,7 +11,7 @@ function Home() {
                 alt="amazon_home_img"
                 />
                 <HOME_ROW>
-                    <Product 
+                   <Product 
                       id="12321341"
                       title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses Hardcover – Illustrated, September 13, 2011" 
                       price={29.99} 
@@ -25,10 +25,10 @@ function Home() {
                       rating={4} />
                 </HOME_ROW>
                 <HOME_ROW>
-                <Product 
+                   <Product 
                       id="456823998"
                       title="JBL Quantum 400 - Wired Over-Ear Gaming Headphones with USB and Game-Chat Balance Dial - Black"
-                      price={99.95 } 
+                      price={99.95} 
                       image="https://images-na.ssl-images-amazon.com/images/I/714ipl0CKHL._AC_SL1500_.jpg"
                       rating={5} />
                     <Product 
@@ -54,7 +54,7 @@ function Home() {
                     <Product 
                       id="5006498312"
                       title="Neumann TLM 103 Condensor Microphone"
-                      price='1,099.99'
+                      price={1099.99}
                       image="https://images-na.ssl-images-amazon.com/images/I/71JN5hFRQsL._AC_SL1500_.jpg"
                       rating={5} />
                    <Product 
@@ -64,7 +64,7 @@ function Home() {
                       image="https://images-na.ssl-images-amazon.com/images/I/81hv8G5nHQL._AC_SL1500_.jpg"
                       rating={4} />
                     <Product 
-                      id="77691524"
+                      id="66419371"
                       title="SKB Acoustic Guitar Case (1SKB-GSM)"
                       price={200.00} 
                       image="https://images-na.ssl-images-amazon.com/images/I/81Nbh-p-IpL._AC_SL1500_.jpg"
@@ -72,7 +72,7 @@ function Home() {
                 </HOME_ROW>
                 <HOME_ROW>  
                 <Product 
-                      id="888221643"
+                      id="77691524"
                       title={`SAMSUNG Business S22R350FHN 22" 1920x1080, IPS panel, thin bezels, VGA/HDMI, Monitor, Black`}
                       price={129.92} 
                       image="https://images-na.ssl-images-amazon.com/images/I/91Vg-6MEI2L._AC_SL1500_.jpg"
