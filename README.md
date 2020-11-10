@@ -10,6 +10,7 @@ Amazon - Full-Stack App - Full Ecommerce App
 * React-Hooks
 * React Context-API - State Managment
 * Functional Components
+* axios - fetching API requests
 * Login\Signin system with Authentication
 * Stripe.js Library - Payment System & capturing Credit Card's details. 
 
