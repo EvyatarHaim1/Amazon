@@ -4,10 +4,15 @@ import styled from 'styled-components';
 import { useStateValue } from '../store/StateProvider';
 import CheckoutProduct from './CheckoutProduct';
 import {Link} from 'react-router-dom';
+import { useElements, useStripe } from '@stripe/react-stripe-js';
+import {CardElement, useStripe, useElements} from '@stripe/react-stripe-js';
 
 function Payment() {
 
     const [{basket, user}, dispatch] = useStateValue();
+
+    const stripe = useStripe();
+    const elements = useElements();
 
     return (
         <PAYMENT>
