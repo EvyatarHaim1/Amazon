@@ -1,5 +1,5 @@
 
-Amazon - Full-Stack App
+Amazon - Full-Stack App - Full Ecommerce App
 
 * React.js - Front
 * Firebase - Backend
