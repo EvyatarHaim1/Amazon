@@ -5,6 +5,7 @@ Amazon - Full-Stack App - Full Ecommerce App
 * Firebase - Backend
 * Node.js(Express) - Full backend on a Cloud funcyion
 * Material-UI 
+* Moment.js
 * React-Router
 * React Currency Format
 * Styled-Components
