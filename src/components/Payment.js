@@ -12,7 +12,7 @@ function Payment() {
 
     const [{basket, user}, dispatch] = useStateValue();
     const history = useHistory();
-    
+
     const stripe = useStripe();
     const elements = useElements();
 
@@ -36,6 +36,8 @@ function Payment() {
       getClientSecret();
     }, [basket])
 
+    console.log('the secret is ', clientSecret)
+
     const handleSubmit = async (event) => {
       event.preventDefault();
       setProccessing(true);
@@ -49,6 +51,10 @@ function Payment() {
           setSucceeded(true);
           setError(null);
           setProccessing(false);
+
+          dispatch({
+              type: 'EMPTY_BASKET'
+          })
 
           history.replace('/orders')
       })
