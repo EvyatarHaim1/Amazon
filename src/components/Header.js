@@ -34,10 +34,12 @@ function Header() {
                   <OPTION_LINE2> {user ? 'Sign Out' : 'Sign In'}</OPTION_LINE2>
                 </HEADER_OPTION>
                 </Link>
+                <Link to='/orders'>
                 <HEADER_OPTION>
                   <OPTION_LINE1> Returns</OPTION_LINE1>
                   <OPTION_LINE2>& Orders</OPTION_LINE2>
                 </HEADER_OPTION>
+                </Link>
                 <HEADER_OPTION>
                   <OPTION_LINE1> Your</OPTION_LINE1>
                   <OPTION_LINE2> Prime</OPTION_LINE2>

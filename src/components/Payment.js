@@ -7,6 +7,7 @@ import {Link, useHistory} from 'react-router-dom';
 import {CardElement, useStripe, useElements} from '@stripe/react-stripe-js';
 import CurrencyFormat from 'react-currency-format';
 import axios from '../axios';
+import {db } from '../firebase'
 
 function Payment() {
 
@@ -48,6 +49,17 @@ function Payment() {
           }
       }).then(({ paymentIntent }) => {
           // PaymentIntent = payment confirmation
+          db
+           .collection('users')
+           .doc(user?.uid)
+           .collection('orders')
+           .doc(paymentIntent.id)
+           .set({
+               basket: basket,
+               amount: paymentIntent.amount,
+               created: paymentIntent.created
+           })
+
           setSucceeded(true);
           setError(null);
           setProccessing(false);
@@ -170,7 +182,22 @@ const PaymentItem = styled.div`
 flex: 0.8;`
 
 const PaymentDetails = styled.div`
-flex: 0.8;`
+flex: 0.8;
+form {max-width: 400px;}
+h3 { margin-bottom: 20px;}
+form > div > button {
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}`
+
+
 
 const PaymentPriceContainer = styled.div``
 
